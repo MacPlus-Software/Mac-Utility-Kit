@@ -1,0 +1,18 @@
+# macOS / Swift / Xcode
+.DS_Store
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.ipa
+*.dSYM
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# IMPORTANT: Keep .kiro tracked for Kiroween evidence.
